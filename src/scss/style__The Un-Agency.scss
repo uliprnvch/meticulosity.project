@@ -1,0 +1,95 @@
+.section-un-agency__block {
+    width: 100%;
+    margin: 0 auto;
+}
+.section-un-agency__block-content {
+    max-width: 1210px;
+    // height: 685px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    // box-sizing: border-box;
+}
+.section-un-agency__block-content-img {
+    display: inline-block;
+    width: 532px;
+}
+
+.section-un-agency__img{
+    display: inline-block;
+    width: 531px;
+    max-height: 599px;
+}
+.section-un-agency__block-content-text {
+    display: inline-block;
+    width: 538px;
+    max-height: 605px;
+    margin-left: 0px;
+    justify-content: center;
+    padding-left: 90px;
+    vertical-align: top;
+}
+.section-un-agency__block-content-title-mini {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: #552768;
+    font-size: 18px;
+    font-weight: 400;
+}
+.section-un-agency__block-content-title {
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    margin: 0 0 1.4rem;
+    font-weight: 700;
+    color: #1f2559;
+}
+.section-un-agency__block-content-text-mini{
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: #62668a;
+    line-height: 27px;
+    text-transform: none;
+    letter-spacing: -.1px;
+}
+.section-un-agency__block-content-btn {
+    background-color: #d25658;
+    border: 0 solid #d25658;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 28px;
+    -webkit-filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+    filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+    transition: .2s ease-in-out;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.section-un-agency__block-content-btn:hover{
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+@media screen and (max-width:1310px){
+    .section-un-agency__block-content-img {
+        max-width: 450px;
+        vertical-align: bottom
+    }
+    .section-un-agency__img{
+        max-width: 100%;
+        max-height: 100%;
+        
+    }
+    .section-un-agency__block-content-text {
+        width: 450px;
+        padding-left: 40px;  
+    }
+}
+@media screen and (max-width:1000px){
+    .section-un-agency__block-content-img {
+        display: none;
+    }
+    .section-un-agency__block-content-text {
+        width: 100%; 
+        padding-left: 0; 
+    }
+}
