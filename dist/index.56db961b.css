@@ -75,7 +75,6 @@
 }
 
 .card__block-content:hover {
-  transition: all .2s ease-in-out;
   transform: scale(1.03);
 }
 
@@ -126,6 +125,7 @@
   border: 0 solid #d25658;
   border-radius: 5px;
   padding: 20px 28px;
+  transition: all .2s ease-in-out;
 }
 
 .section-services__content-btn:hover {
@@ -152,6 +152,19 @@
 @media screen and (max-width: 895px) {
   .card__block-content {
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .section-services__block-content {
+    padding: 30px 10px;
+  }
+
+  .card__block-content {
+    width: 100%;
+    width: 310px;
+    filter: drop-shadow(0 3px 6px #1f25590a);
+    padding: 20px;
   }
 }
 

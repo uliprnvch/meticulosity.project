@@ -1,0 +1,91 @@
+.section-ete-marketing__block {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-ete-marketing__block-bg {
+  background-image: url("meta.d180c149.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 20px;
+}
+
+.section-ete-marketing__block-content {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+
+.section-ete-marketing__content {
+  max-width: 590px;
+  margin-bottom: 15px;
+  font-family: Plus Jakarta Display, sans-serif;
+}
+
+.section-ete-marketing__block-content-title-mini {
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-ete-marketing__block-content-title {
+  color: #fff;
+  letter-spacing: -.1px;
+  margin-bottom: 25px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px;
+  text-decoration: none;
+}
+
+.section-ete-marketing__block-content-text {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.section-ete-marketing__block-content-btn1 {
+  color: #fff;
+  background-color: #5bbb73;
+  border: 1px solid #5bbb73;
+  border-radius: 5px;
+  margin-right: 16px;
+  padding: 20px 28px;
+}
+
+.section-ete-marketing__block-content-btn1:hover {
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  transform: scale(1.03);
+}
+
+.section-ete-marketing__block-content-btn2 {
+  color: #552768;
+  background-color: #fff;
+  border: 0 solid #fff;
+  border-radius: 5px;
+  padding: 20px 28px;
+}
+
+.section-ete-marketing__block-content-btn2:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #552768;
+  transition: all .2s ease-in-out;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 654px) {
+  .section-ete-marketing__content {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-ete-marketing__block-content-btn1 {
+    margin-bottom: 8px;
+  }
+}
+
+/*# sourceMappingURL=index.d0fe872e.css.map */

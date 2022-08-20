@@ -1,0 +1,125 @@
+.section-GDD-bg {
+  background-image: url("marketing-and-development-1.44f157c9.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.section-GDD__block {
+  width: 100%;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-GDD__block-content {
+  grid-column-gap: 30px;
+  grid-row-gap: 24px;
+  width: 1050px;
+  background-color: #6b7db2;
+  border-radius: 54px;
+  grid-template-columns: repeat(2, auto);
+  margin: 0 auto;
+  padding: 80px 80px 56px;
+  display: grid;
+}
+
+.section-GDD__content-title {
+  color: #fff;
+  letter-spacing: -1px;
+  text-transform: none;
+  margin: 0 0 1.4rem;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-decoration: none;
+}
+
+.section-GDD__content-text {
+  color: #fff;
+  text-transform: none;
+  letter-spacing: -.1px;
+  margin: 0 0 1.4rem;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-decoration: none;
+}
+
+.section-GDD__content-btn {
+  color: #552769;
+  cursor: pointer;
+  text-align: center;
+  background-color: #fff;
+  border: 0 solid #fff;
+  border-radius: 5px;
+  padding: 20px 28px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.1;
+  transition: all .2s ease-in-out;
+}
+
+.section-GDD__content-btn:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1250px) {
+  .section-GDD__block-content {
+    width: auto;
+    margin: 0 40px;
+  }
+
+  .section-GDD__img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section-GDD__block-content {
+    grid-column-gap: 30px;
+    grid-row-gap: 24px;
+    grid-template-columns: repeat(1, auto);
+    margin: 0 40px;
+  }
+
+  .section-GDD__img {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .section-GDD__block-content {
+    margin: 0 20px;
+    padding: 48px;
+  }
+
+  .section-GDD__img {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 494px) {
+  .section-GDD__block-content {
+    margin: 0 20px;
+    padding: 28px;
+  }
+
+  .section-GDD__img {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .section-GDD__content-img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.2ecf32c7.css.map */

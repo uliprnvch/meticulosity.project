@@ -1,6 +1,9 @@
 .section-different__block {
   width: 100%;
   background-image: url("hubspot-solutions-partner-canada.0dbb6523.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;
 }
 

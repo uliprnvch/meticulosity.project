@@ -1,0 +1,129 @@
+.section-management__block {
+  width: 100%;
+  background-color: #fafafc;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-management__block-content {
+  max-width: 1210px;
+  grid-column-gap: 0;
+  grid-row-gap: 24px;
+  grid-template-columns: repeat(2, auto);
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+
+.section-management__img {
+  width: 500px;
+}
+
+.section-management__content {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+
+.section-management__content-title-mini {
+  color: #552768;
+  text-align: left;
+  margin: 0 0 1.4rem;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.section-management__content-title {
+  letter-spacing: -1px;
+  max-width: 464px;
+  color: #1f2559;
+  text-transform: none;
+  margin: 0 0 1.4rem;
+  padding-right: 13px;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-decoration: none;
+}
+
+.section-management__content-ul {
+  margin: 0 0 1.5rem;
+  padding-inline-start: 40px;
+  list-style-type: disc;
+  display: block;
+}
+
+.section-management__content-li {
+  margin: 8px 0;
+}
+
+.section-management__content-btn {
+  color: #fff;
+  cursor: pointer;
+  height: auto;
+  width: 127px;
+  background-color: #5bbb73;
+  border: 1px solid #5bbb73;
+  border-radius: 5px;
+  margin: 0;
+  padding: 20px 28px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.1;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+}
+
+.section-management__content-btn:hover {
+  color: #fff;
+  background-color: #5bbb73;
+  border: 1px solid #5bbb73;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1000px) {
+  .section-management__img {
+    width: 400px;
+  }
+
+  .section-management__block-content {
+    grid-column-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .section-management__img {
+    width: 360px;
+  }
+
+  .section-management__block-content {
+    grid-column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .section-management__block-content {
+    grid-row-gap: 24px;
+    grid-template-columns: repeat(1, auto);
+    margin: 0 30px;
+  }
+
+  .section-management__img {
+    width: 460px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .section-management__block-content {
+    margin: 0 20px;
+  }
+
+  .section-management__img {
+    width: 260px;
+  }
+}
+
+/*# sourceMappingURL=index.ebd17bb1.css.map */

@@ -5,6 +5,7 @@
 
 .section-un-agency__block-content {
   max-width: 1210px;
+  height: auto;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -22,7 +23,6 @@
 
 .section-un-agency__block-content-text {
   width: 538px;
-  max-height: 605px;
   vertical-align: top;
   justify-content: center;
   margin-left: 0;
@@ -81,7 +81,7 @@
 
 @media screen and (max-width: 1310px) {
   .section-un-agency__block-content-img {
-    max-width: 450px;
+    width: 450px;
     vertical-align: bottom;
   }
 
@@ -91,12 +91,23 @@
   }
 
   .section-un-agency__block-content-text {
-    width: 450px;
-    padding-left: 40px;
+    width: 600px;
+    padding-left: 60px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1173px) {
+  .section-un-agency__block-content-text {
+    width: 500px;
+    padding-left: 60px;
+  }
+
+  .section-un-agency__block-content {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1073px) {
   .section-un-agency__block-content-img {
     display: none;
   }
@@ -104,6 +115,10 @@
   .section-un-agency__block-content-text {
     width: 100%;
     padding-left: 0;
+  }
+
+  .section-un-agency__block-content {
+    margin-bottom: 0;
   }
 }
 

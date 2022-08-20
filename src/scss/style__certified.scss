@@ -1,0 +1,102 @@
+.section-certified__block {
+    width: 100%;
+    max-height: 562px;
+    margin: 0 auto;
+    background-image: url(../img/hubspot-development.jpg);
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    padding: 140px 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-column-gap: 72px;
+    grid-row-gap: 24px;
+    // padding: 80px 20px;
+    // position: relative;
+}
+.section-certified__block-zero{
+    width: 692px;
+    display: inline-block;
+    
+}
+.section-certified__block-content {
+    display: inline-block;
+    margin-left: 31px;
+    margin-right: 31px;
+    // position: absolute; right:0px;
+    
+}
+.section-certified__block-content-title-mini {
+    color: #fff;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: none;
+    letter-spacing: -.1px;
+}
+.section-certified__block-content-title {
+    font-weight: 600;
+    color: #fff;
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.section-certified__block-content-text {
+    width: 486px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: none;
+    letter-spacing: -.1px;
+    margin-bottom: 25px;
+}
+.section-certified__block-content-btn {
+    background-color: #d25658;
+    border: 0 solid #d25658;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 28px;
+    -webkit-filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+    filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.section-certified__block-content-btn:hover{
+    background-color: #d42035;
+    color: #fff;
+    border: 0 solid #d42035;
+    transform: scale(1.05);
+}
+@media screen and (max-width:1263px){
+    .section-certified__block-zero{
+        width: 350px;
+    }
+
+@media screen and (max-width:960px){
+    .section-certified__block {
+        background: #56206e!important;
+    }
+    .section-certified__block-zero{
+        display: none;
+    }
+    .section-certified__block-content-text {
+        width: 100%;
+    }
+}
+@media screen and (max-width:566px){
+    .section-certified__block-content-text {
+        width: auto;
+    }
+    .section-certified__block {
+        padding: 80px 0;
+    }
+}
+}
