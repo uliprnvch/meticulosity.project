@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magento and HubSpot COS Development and Digital Marketing</title>
+    <script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.jcarousellite.js"></script>
     <link rel="stylesheet" href="./scss/style.scss">
     <link rel="stylesheet" href="./scss/style__header.scss">
     <link rel="stylesheet" href="./scss/style__End-to-End Marketing.scss">
@@ -169,6 +171,29 @@
                 </div>
             </div>
         </section-services>
+        
+        <div class="mycarousel">
+            <ul>
+                <li><img src="./img/assa.png" alt="пальма"/></li>
+                <li><img src="./img/ghirardelli.png" alt="малина"/></li>
+                <li><img src="./img/dkny.png" alt="Морько"/></li>
+                <li><img src="./img/fatshark.png" alt="Вишенки"/></li>
+                <li><img src="./img/cpsre.png" alt="пальма"/></li>
+                <li><img src="./img/b5.png" alt="малина"/></li>
+                <li><img src="./img/totabc.png" alt="Морько"/></li>
+            </ul>
+        </div>
+        <script type='text/javascript' >
+            $(function()    {
+                $(".mycarousel").jCarouselLite({
+                    auto: 2000,
+                    speed: 1000,
+                    circular: true,
+                    visible: 4
+                });
+            });
+            </script>
+       
     </main>
 </body>
 </html>
