@@ -65,9 +65,12 @@
     margin-bottom: 35px;
 }
 .section-un-agency__block-content-btn:hover{
-    transform: scale(1.1);
     transition: .2s ease-in-out;
+    transform: scale(1.03);
     cursor: pointer;
+    background-color: #d42035;
+    color: #fff;
+    border: 0 solid #d42035;
 }
 @media screen and (max-width:1310px){
     .section-un-agency__block-content-img {

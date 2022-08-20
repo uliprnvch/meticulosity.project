@@ -72,8 +72,11 @@
 
 .section-un-agency__block-content-btn:hover {
   cursor: pointer;
+  color: #fff;
+  background-color: #d42035;
+  border: 0 solid #d42035;
   transition: all .2s ease-in-out;
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 @media screen and (max-width: 1310px) {

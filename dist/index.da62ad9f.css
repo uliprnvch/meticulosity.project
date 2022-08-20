@@ -1,0 +1,52 @@
+.section-different__block {
+  width: 100%;
+  background-image: url("hubspot-solutions-partner-canada.0dbb6523.jpg");
+  margin: 0 auto;
+}
+
+.section-different__block-content {
+  max-width: 1311px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.section-different__block-content-title-mini {
+  color: #fff;
+  text-transform: none;
+  letter-spacing: -.1px;
+  max-width: 573px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-decoration: none;
+}
+
+.section-different__block-content-title {
+  letter-spacing: -1px;
+  color: #fff;
+  max-width: 573px;
+  margin: 0 0 1.4rem;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.section-different__block-content-text {
+  max-width: 573px;
+  text-transform: none;
+  letter-spacing: -.1px;
+  color: #fff;
+  margin: 0 0 1.4rem;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-decoration: none;
+}
+
+.section-different__block-content-img {
+  max-width: 275px;
+}
+
+/*# sourceMappingURL=index.da62ad9f.css.map */
