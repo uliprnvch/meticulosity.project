@@ -5,10 +5,15 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    }
+    .section-different__block-content-zero{
+        width: 500px;
     }
     .section-different__block-content{
-    max-width: 1311px;
-    margin: 0 auto;
+    max-width: 589px;
+    // margin: 0 auto;
     color: #ffffff;
     padding: 100px 20px;
     }
@@ -45,4 +50,22 @@
     }
     .section-different__block-content-img{
     max-width: 275px;
+    }
+    @media screen and (max-width:833px){
+        .section-different__block-content-zero{
+            width: 325px;
+        }
+    }
+    @media screen and (max-width:658px){
+        .section-different__block-content-zero{
+            display: none;
+        }
+        .section-different__block{
+            background: #d25658!important;
+        }
+    }
+    @media screen and (max-width:350px){
+        .section-different__block-content{
+            padding: 80px 10px;
+            }
     }
