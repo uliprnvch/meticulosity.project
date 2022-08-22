@@ -1,14 +1,20 @@
 .section-certified__block {
-  max-height: 562px;
-  grid-column-gap: 28px;
+  width: 100%;
+  height: 562px;
   background-image: url("hubspot-development.4f5ff658.jpg");
+  margin: 0 auto;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.section-certified__blocks {
+  grid-column-gap: 28px;
+  max-width: 1210px;
   grid-template-columns: repeat(2, auto);
   margin: 0 auto;
   padding: 140px 0;
   display: grid;
-  background-position: center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
 }
 
 .section-certified__block-zero {
@@ -16,7 +22,8 @@
 }
 
 .section-certified__block-content {
-  margin-right: 8px;
+  max-width: 500px;
+  margin: auto 8px;
 }
 
 .section-certified__block-content-title-mini {
@@ -72,15 +79,35 @@
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 1263px) {
+@media screen and (max-width: 4300px) {
   .section-certified__block-zero {
+    width: 800px;
+  }
+
+  .section-certified__block-content {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .section-certified__block-zero {
+    width: 600px;
+  }
+
+  .section-certified__block-content {
     width: 500px;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1263px) {
   .section-certified__block-zero {
-    width: 400px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .section-certified__block-zero {
+    max-width: 340px;
   }
 }
 
@@ -88,21 +115,27 @@
   .section-certified__block-content {
     width: auto;
   }
-
-  .section-certified__block-zero {
-    max-width: 340px;
-  }
 }
 
 @media screen and (max-width: 675px) {
-  .section-certified__block {
-    background: #56206e;
-    padding: 80px 20px;
+  .section-certified__blocks {
     display: inline-block;
   }
 
+  .section-certified__block {
+    height: auto;
+    background: #56206e;
+    margin: auto 0;
+    padding: 80px 0;
+  }
+
+  .section-certified__blocks {
+    padding: 0;
+  }
+
   .section-certified__block-content {
-    max-width: 660px;
+    max-width: 600px;
+    margin: 0 20px;
   }
 
   .section-certified__block-zero {

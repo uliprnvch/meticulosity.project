@@ -1,25 +1,27 @@
 .section-certified__block {
-    // width: 100%;
-    max-height: 562px;
+    width: 100%;
     margin: 0 auto;
+    height: 562px;
     background-image: url(../img/hubspot-development.jpg);
     background-size: cover !important;
     background-position: center center !important;
     background-repeat: no-repeat !important;
-    padding: 140px 0;
+}
+.section-certified__blocks{
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-column-gap: 28px;
-    // grid-row-gap: 24px;
-
+    max-width: 1210px;
+    padding: 140px 0;
+    margin: 0 auto;
 }
 .section-certified__block-zero{
     width: 692px;
-    
 }
 .section-certified__block-content {
-    // max-width: 486px;
-    margin-right: 8px;
+    margin: auto 8px;
+    max-width: 500px;
+    
 }
 .section-certified__block-content-title-mini {
     color: #fff;
@@ -71,32 +73,53 @@
     border: 0 solid #d42035;
     transform: scale(1.05);
 }
-@media screen and (max-width:1263px){
+@media screen and (max-width:4300px){
     .section-certified__block-zero{
+        width: 800px;
+    }
+    .section-certified__block-content {
+        width: 600px;
+    }
+}
+@media screen and (max-width:1490px){
+    .section-certified__block-zero{
+        width: 600px;
+    }
+    .section-certified__block-content {
         width: 500px;
     }
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:1263px){
     .section-certified__block-zero{
-        width: 400px;
+        max-width: 400px;
+    }
+}
+@media screen and (max-width:1170px){
+    .section-certified__block-zero{
+        max-width: 340px;
     }
 }
 @media screen and (max-width:895px){
     .section-certified__block-content {
         width: auto;
     }
-    .section-certified__block-zero{
-        max-width: 340px;
-    }
 }
 @media screen and (max-width:675px){
+    .section-certified__blocks{
+        display: inline-block;
+    }
     .section-certified__block {
         background: #56206e;
-        display: inline-block;
-        padding: 80px 20px;
+        padding: 80px 0;
+        margin: auto 0;
+        height: auto;
+    }
+    .section-certified__blocks{
+        padding: 0;
     }
     .section-certified__block-content {
-        max-width: 660px;
+        max-width: 600px;
+        margin: 0 20px;
     }
     .section-certified__block-zero{
         display: none;

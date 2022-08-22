@@ -5,17 +5,22 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+    
+    }
+    .section-different__blocks{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        padding: 100px 20px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        max-width: 1271px;
     }
     .section-different__block-content-zero{
-        width: 500px;
+        max-width: 500px;
     }
     .section-different__block-content{
     max-width: 589px;
-    // margin: 0 auto;
     color: #ffffff;
-    padding: 100px 20px;
     }
     .section-different__block-content-title-mini{
         color: #ffffff;
@@ -51,12 +56,17 @@
     .section-different__block-content-img{
     max-width: 275px;
     }
-    @media screen and (max-width:833px){
+    @media screen and (max-width:1098px){
         .section-different__block-content-zero{
-            width: 325px;
+            width: 450px;
         }
     }
-    @media screen and (max-width:658px){
+    @media screen and (max-width:765px){
+        .section-different__block-content-zero{
+            width: 350px;
+        }
+    }
+    @media screen and (max-width:678px){
         .section-different__block-content-zero{
             display: none;
         }
