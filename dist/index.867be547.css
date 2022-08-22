@@ -1,6 +1,6 @@
 .section-certified__block {
   width: 100%;
-  height: 562px;
+  min-height: 562px;
   background-image: url("hubspot-development.4f5ff658.jpg");
   margin: 0 auto;
   background-position: center !important;
