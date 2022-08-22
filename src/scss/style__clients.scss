@@ -52,7 +52,7 @@
 	}
 }
 .section-clients__block-content-carousel {
-    animation: scroll 10s linear infinite;
+    animation: scroll 15s linear infinite;
 	display: flex;
 	// width: calc(250px * 14);
 }
@@ -62,7 +62,6 @@
     transition: transform .3s;
     max-height: 100px;
 }
-$animationSpeed: 40s;
 
 // Animation
 @keyframes scroll {
@@ -73,20 +72,20 @@ $animationSpeed: 40s;
     transform: scale(1.1);
 }
 
-// @keyframes scroll{
-//     0%{
-//         transform: translate(-100%);
-//     }
-//     25%{
-//         transform: translate(-50%);
-//     }
-//     50%{
-//         transform: translate(0);
-//     }
-//     75%{
-//         transform: translate(50%);
-//     }
-//     100%{
-//         transform: translate(100%); 
-//     }
-// }
+@keyframes scroll{
+    0%{
+        transform: translate(-100%);
+    }
+    25%{
+        transform: translate(-50%);
+    }
+    50%{
+        transform: translate(0);
+    }
+    75%{
+        transform: translate(50%);
+    }
+    100%{
+        transform: translate(100%); 
+    }
+}
