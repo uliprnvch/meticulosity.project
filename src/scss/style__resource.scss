@@ -4,7 +4,7 @@
 .section-resource__block-content {
     max-width: 1311px;
     margin: 0 auto;
-    padding: 80px 20px;
+    padding: 40px 20px 20px 20px;
 }
 .section-resource__block-content-table {
     display: flex;
@@ -76,6 +76,10 @@
     border: 1px solid #f4f4f9;
     border-radius: 24px;
     filter: drop-shadow(0 3px 10px rgba(31,37,89,.04));
+}
+.section-resource__block-content-card:hover {
+    transform: scale(1.03)!important;
+    cursor: pointer;
 }
 // .section-resource__block-content-card+.section-resource__block-content-card{
 //     margin-right: 24px;
@@ -163,11 +167,13 @@ height: 60px;
     margin-left: 0px;
     float: right;
     width: auto;
+    margin-top: 16px;
 }
 .section-resource__content-card-text-end-btn {
     background-color: #552768;
-    padding: 6px 12px 8px;
+    padding: 8px 12px;
     border-radius: 5px;
     color: #FFFFFF;
     font-size: 12px;
+    border: #552768;
 }

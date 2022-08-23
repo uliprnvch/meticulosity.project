@@ -5,7 +5,7 @@
 .section-resource__block-content {
   max-width: 1311px;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 40px 20px 20px;
 }
 
 .section-resource__block-content-table {
@@ -80,6 +80,11 @@
   padding: 0;
   transition: transform .3s;
   display: inline-block;
+}
+
+.section-resource__block-content-card:hover {
+  cursor: pointer;
+  transform: scale(1.03) !important;
 }
 
 .section-resource__block-content-card-img {
@@ -171,14 +176,16 @@
   text-align: right;
   float: right;
   width: auto;
+  margin-top: 16px;
   margin-left: 0;
 }
 
 .section-resource__content-card-text-end-btn {
   color: #fff;
   background-color: #552768;
+  border: #552768;
   border-radius: 5px;
-  padding: 6px 12px 8px;
+  padding: 8px 12px;
   font-size: 12px;
 }
 
