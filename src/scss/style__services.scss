@@ -64,13 +64,13 @@
     margin-top: 1.5rem;
     margin-right: 1.5rem;
     max-width: 100%;
-    width: 100%;
+    width: 399px;
     padding: 28px;
     background-color: #fff;
     border: 1px solid #f4f4f9;
     border-radius: 24px;
     transition: .2s ease-in-out;
-    width: 337px;
+    // width: 337px;
     text-align: center;
     cursor: pointer;
     filter: drop-shadow(0 3px 10px rgba(31,37,89,.04));
@@ -152,7 +152,7 @@
             text-align: left;
         }
 }
-@media screen and (max-width: 895px){
+@media screen and (max-width: 855px){
     .card__block-content{
         margin-right: 0;
     }

@@ -64,4 +64,10 @@ input, button, textarea, select {
   }
 }
 
+@media screen and (max-width: 916px) {
+  html {
+    overflow-x: hidden;
+  }
+}
+
 /*# sourceMappingURL=index.e8265c92.css.map */

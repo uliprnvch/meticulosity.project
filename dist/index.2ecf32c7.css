@@ -17,7 +17,7 @@
 .section-GDD__block-content {
   grid-column-gap: 30px;
   grid-row-gap: 24px;
-  width: 1050px;
+  max-width: 1311px;
   background-color: #6b7db2;
   border-radius: 54px;
   grid-template-columns: repeat(2, auto);
@@ -68,7 +68,7 @@
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1350px) {
   .section-GDD__block-content {
     width: auto;
     margin: 0 40px;

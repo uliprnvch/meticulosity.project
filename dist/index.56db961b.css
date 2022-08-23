@@ -60,8 +60,7 @@
 
 .card__block-content {
   max-width: 100%;
-  width: 100%;
-  width: 337px;
+  width: 399px;
   text-align: center;
   cursor: pointer;
   filter: drop-shadow(0 3px 10px #1f25590a);
@@ -149,7 +148,7 @@
   }
 }
 
-@media screen and (max-width: 895px) {
+@media screen and (max-width: 855px) {
   .card__block-content {
     margin-right: 0;
   }

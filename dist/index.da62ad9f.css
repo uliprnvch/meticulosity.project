@@ -9,7 +9,7 @@
 
 .section-different__blocks {
   box-sizing: border-box;
-  max-width: 1271px;
+  max-width: 1311px;
   grid-template-columns: repeat(2, auto);
   margin: 0 auto;
   padding: 100px 20px;
