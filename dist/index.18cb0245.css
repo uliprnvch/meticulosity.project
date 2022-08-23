@@ -60,6 +60,13 @@
   transition: all .2s ease-in-out;
 }
 
+.section-resource__content-table-btn:hover {
+  color: #fff;
+  background-color: #552768;
+  border: 1px solid #552768;
+  transform: scale(1.05);
+}
+
 .section-resource__block-content-cards {
   grid-column-gap: 27px;
   grid-row-gap: 27px;
