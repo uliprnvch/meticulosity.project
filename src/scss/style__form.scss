@@ -74,14 +74,15 @@
     justify-content: center;
     margin: 0 auto;
 }
+.section-form__block-content-form-columns:nth-child(1) {
+    margin-top: 32px;
+}
 .section-form__block-content-form-input {
     // width: 50%;
-    margin-bottom: 1.8rem;
     color: #1f2559;
     font-weight: 500;
     text-align: left;
     width: auto;
-    margin-top: 0.35rem;
     border: 1px solid #e7e8f1;
     border-radius: 10px;
     height: 62px;
@@ -94,9 +95,10 @@
     transition: .15s linear;
     margin-right: 14px;
     margin-bottom: 32px;
-    margin-top: 32px;
+    // margin-top: 32px;
     font-family: inherit;
 }
+
 .section-form__block-content-form-textarea {
     width: 100% !important;
     height: 133px;
@@ -153,12 +155,14 @@
     .section-form__block-content-columns {
         grid-template-columns: repeat(1, auto);
     }
+    .section-form__block-content-form-columns:nth-child(1) {
+        margin-top: 20px;
+    }
     .section-form__block-content-text {
         padding-bottom: 10px;
         // max-width: 589px;
     }
     .section-form__block-content-form {
         margin: 0px;
-
     }
 }

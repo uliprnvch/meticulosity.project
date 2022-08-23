@@ -77,6 +77,10 @@
   margin: 0 auto;
 }
 
+.section-form__block-content-form-columns:nth-child(1) {
+  margin-top: 32px;
+}
+
 .section-form__block-content-form-input {
   color: #1f2559;
   text-align: left;
@@ -85,7 +89,6 @@
   background-color: #fff;
   border: 1px solid #e7e8f1;
   border-radius: 10px;
-  margin-top: 32px;
   margin-bottom: 32px;
   margin-right: 14px;
   padding: .7rem 1.2rem;
@@ -156,6 +159,10 @@
 @media screen and (max-width: 900px) {
   .section-form__block-content-columns {
     grid-template-columns: repeat(1, auto);
+  }
+
+  .section-form__block-content-form-columns:nth-child(1) {
+    margin-top: 20px;
   }
 
   .section-form__block-content-text {
