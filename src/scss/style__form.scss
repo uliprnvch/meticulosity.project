@@ -1,0 +1,164 @@
+.section-form__block {
+    width: 100%;
+    background-image: url(../img/hubspot-quote.webp) !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    padding: 60px 20px;
+}
+.section-form__block-content {
+    max-width: 1311px;
+    margin: 0 auto;
+}
+.section-form__block-content-columns {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+.section-form__block-content-text {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding-bottom: 240px;
+    // max-width: 589px;
+}
+.section-form__block-content-text-title-mini {
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+    line-height: 27px;
+    text-transform: none;
+    letter-spacing: -.1px;
+}
+.section-form__block-content-text-title {
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: white;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 16px;
+}
+.section-form__block-content-text-paragraph {
+    margin-bottom: 25px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: #ffffff;
+    line-height: 27px;
+    text-transform: none;
+    letter-spacing: -.1px;
+}
+.section-form__block-form {
+    display: flex;
+    justify-content: center;
+}
+.section-form__block-content-form {
+    padding-top: 24px;
+    padding-bottom: 55px;
+    padding-left: 39px;
+    padding-right: 32px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    margin-right: 0px;
+    background-color: #FFFFFF;
+    width: 100%;
+    border: 1px solid #E7E8F1;
+    border-radius: 36px;
+    max-width: 589px;
+}
+.section-form__block-content-form-columns {
+    max-width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.section-form__block-content-form-input {
+    // width: 50%;
+    margin-bottom: 1.8rem;
+    color: #1f2559;
+    font-weight: 500;
+    text-align: left;
+    width: auto;
+    margin-top: 0.35rem;
+    border: 1px solid #e7e8f1;
+    border-radius: 10px;
+    height: 62px;
+    box-shadow: 0 2px 8px rgb(244 38 62 / 4%), 0 1px 3px rgb(31 37 89 / 7%);
+    background-color: #FFF;
+    // border-radius: 3px;
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    // width: 100%;
+    transition: .15s linear;
+    margin-right: 14px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    font-family: inherit;
+}
+.section-form__block-content-form-textarea {
+    width: 100% !important;
+    height: 133px;
+    border: 1px solid #e7e8f1;
+    color: #1f2559;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(244 38 62 / 4%), 0 1px 3px rgb(31 37 89 / 7%);
+    background-color: #FFF;
+    display: inline-block;
+    padding: 0.7rem 1.2rem;
+    transition: .15s linear;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: 500;
+    line-height: 1.15;
+    margin-bottom: 32px;
+}
+.section-form__block-content-form-btn{
+    margin-top: 8px;
+    background-color: #552768;
+    border: 0 solid #1f2559;
+    border-radius: 12px;
+    color: #fff;
+    padding: 20px 28px;
+    filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+    cursor: pointer;
+    display: inline-block;
+    font-size: .92rem;
+    font-weight: normal;
+    line-height: 1.1;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s linear;
+    white-space: normal;
+    width: auto;
+    word-break: break-word;
+}
+.section-form__block-content-form-btn:hover{
+    background-color: #d42035;
+    color: #fff;
+    border: 0 solid #1f2559;
+    transform: scale(1.05);
+}
+@media screen and (max-width: 1087px){
+    .section-form__block-content-form-input {
+        width: 100%;
+        margin: 15px auto;
+    }
+    .section-form__block-content-form-textarea {
+        margin: 15px auto;
+    }
+}
+@media screen and (max-width: 900px){
+    .section-form__block-content-columns {
+        grid-template-columns: repeat(1, auto);
+    }
+    .section-form__block-content-text {
+        padding-bottom: 10px;
+        // max-width: 589px;
+    }
+    .section-form__block-content-form {
+        margin: 0px;
+
+    }
+}

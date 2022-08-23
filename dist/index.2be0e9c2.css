@@ -6,7 +6,6 @@
 .header__block-content {
   max-width: 1311px;
   text-align: center;
-  justify-content: center;
   align-items: center;
   margin: 0 auto;
   padding: 20px 0;
@@ -17,8 +16,8 @@
 .header__logo-img {
   width: 141px;
   cursor: pointer;
-  margin-left: auto;
-  margin-right: 261px;
+  margin-left: 20px;
+  margin-right: 361px;
 }
 
 .header__logo-img:hover {
@@ -114,11 +113,10 @@
   display: none;
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (max-width: 1350px) {
   .header__logo-img {
     max-width: 141px;
-    margin-left: 20px;
-    margin-right: 125px;
+    margin-right: 300px;
   }
 
   .header__button {
@@ -126,15 +124,21 @@
   }
 }
 
-@media screen and (max-width: 1135px) {
+@media screen and (max-width: 1260px) {
   .header__logo-img {
     max-width: 141px;
-    margin-left: auto;
-    margin-right: 100px;
+    margin-right: 225px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .header__logo-img {
+    max-width: 141px;
+    margin-right: 150px;
   }
 
   .header__button {
-    margin-right: auto;
+    margin-right: 20px;
   }
 }
 
@@ -142,32 +146,24 @@
   .header__logo-img {
     max-width: 141px;
     margin-left: 20px;
-  }
-
-  .header__button {
-    margin-right: 15px;
+    margin-right: 180px;
   }
 
   .header-content-text {
     padding: 15px 10px;
   }
+}
 
+@media screen and (max-width: 1000px) {
   .header__logo-img {
-    max-width: 141px;
-    margin-left: 20px;
-    margin-right: 55px;
+    margin-right: 100px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 950px) {
   .header__logo-img {
     max-width: 141px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .header__button {
-    margin-right: 10px;
+    margin-right: 70px;
   }
 }
 
