@@ -46,10 +46,6 @@
   transition: transform .3s;
 }
 
-.section-testimonials__block-content-slide:nth-child(2), .section-testimonials__block-content-slide:nth-child(3) {
-  display: none;
-}
-
 .carousel__item:hover {
   transform: scale(1.02) !important;
 }
