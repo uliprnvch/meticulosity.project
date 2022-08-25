@@ -100,6 +100,7 @@
 }
 
 .section-form__block-content-form-textarea {
+  width: 90%;
   height: 133px;
   color: #1f2559;
   background-color: #fff;
