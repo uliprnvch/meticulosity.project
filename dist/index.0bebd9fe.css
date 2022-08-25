@@ -114,7 +114,6 @@
   transition: all .15s linear;
   display: inline-block;
   box-shadow: 0 2px 8px #f4263e0a, 0 1px 3px #1f255912;
-  width: 100% !important;
 }
 
 .section-form__block-content-form-btn {

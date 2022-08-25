@@ -95,7 +95,7 @@
 }
 
 .section-form__block-content-form-textarea {
-    width: 100% !important;
+    /* width: 100%; */
     height: 133px;
     border: 1px solid #e7e8f1;
     color: #1f2559;

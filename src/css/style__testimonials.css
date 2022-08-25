@@ -41,14 +41,19 @@
     border-radius: 24px;
     filter: drop-shadow(0 3px 10px rgba(31,37,89,.04));
 }
-
+.section-testimonials__block-content-slide:nth-child(2) {
+  display: none;
+}
+.section-testimonials__block-content-slide:nth-child(3) {
+  display: none;
+}
 .carousel__item:hover {
   transform: scale(1.02) !important;
 }
- animation-default {
+ /* animation-default {
     opacity: 1 !important;
     z-index: 3;
-  }
+  } */
   
   /* @mixin carousel($items, $animation: 'default') {
     .carousel {
