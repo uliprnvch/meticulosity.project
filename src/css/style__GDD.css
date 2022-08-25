@@ -1,0 +1,115 @@
+.section-GDD-bg{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-image: url(../img/marketing-and-development-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.section-GDD__block {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-GDD__block-content {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-column-gap: 30px;
+    grid-row-gap: 24px;
+    padding-top: 80px;
+    padding-bottom: 56px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0 auto;
+    background-color: #6b7db2;
+    border-radius: 54px;
+    max-width: 1311px;
+}
+
+.section-GDD__content-title {
+    color: white;
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    margin: 0 0 1.4rem;
+    text-transform: none;
+}
+.section-GDD__content-text {
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+    line-height: 27px;
+    text-transform: none;
+    letter-spacing: -.1px;
+    margin: 0 0 1.4rem;
+    font-size: 18px;
+}
+.section-GDD__content-btn {
+    font-weight: normal;
+    color: #552769;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: 0px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1.1;
+    padding: 20px 28px;
+    transition: .2s ease-in-out;
+}
+.section-GDD__content-btn:hover{
+    transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 1350px){
+    .section-GDD__block-content {
+        width: auto;
+        margin: 0 40px;
+    }
+    .section-GDD__img {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .section-GDD__block-content {
+        margin: 0 40px;
+        grid-template-columns: repeat(1, auto);
+        grid-column-gap: 30px;
+        grid-row-gap: 24px;
+    }
+    .section-GDD__img {
+        max-width: 500px;
+        display: flex;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 760px){
+    .section-GDD__block-content {
+        margin: 0 20px;
+        padding: 48px;
+    }
+    .section-GDD__img {
+        width: 340px;
+    }
+}
+@media screen and (max-width: 494px){
+    .section-GDD__block-content {
+        margin: 0 20px;
+        padding: 28px;
+    }
+    .section-GDD__img {
+        width: 240px;
+    }
+}
+@media screen and (max-width: 340px){
+    .section-GDD__content-img {
+        display: none;
+    }
+}

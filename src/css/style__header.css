@@ -1,0 +1,203 @@
+.header__block {
+    width: 100%;
+    margin: 0 auto;
+}
+.header__block-content{
+    max-width: 1311px;
+    margin: 0 auto;
+    padding: 20px 0;
+    transition: all .7s ease;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header__logo-img {
+    width: 141px;
+    margin-right: 361px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.header__logo-img:hover{
+    transition: .2s ease-in-out;
+    transform: scale(1.03);
+}
+.header-content-text {
+    display: inline-flex;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 40px;
+    text-transform: none;
+    letter-spacing: -.1px;
+    cursor: pointer;
+}
+.header-content-separator{
+    background-image: url(../img/separator.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 13px;
+    width: 20px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.header-link-options {
+    position: relative;
+    display: inline-block;
+}
+.link-options-content {
+    display: none;
+    position: absolute;
+}
+.link-options-content-text {
+    line-height: 40px;
+    
+}
+.header-link-options:hover .link-options-content{
+    display: block;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 190px;
+    padding: 20px 30px;
+    text-align: left;
+    transition: 0.2s ease-in-out;
+}
+.header-content-find {
+    height: 20px;
+    width: 20px;
+    margin: 0px 16px 0px 6px;
+    cursor: pointer;
+}
+.header-content-find:hover{
+    transition: .2s ease-in-out;
+    transform: scale(1.2);
+}
+.header__button {
+    margin-left: 8px;
+    background-color: #d25658;
+    border: 0 solid #d25658;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 28px;
+    -webkit-filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+    filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+    cursor: pointer;
+}
+.header__button:hover{
+    transition: .2s ease-in-out;
+    transform: scale(1.03);
+    background-color: #d42035;
+    color: #fff;
+    border: 0 solid #d42035;
+}
+.menu-block{
+    display: none;
+}
+.dropdown-content{
+    display: none;
+    
+}
+@media screen and (max-width:1350px){
+    .header__logo-img {
+        max-width: 141px;
+        margin-right: 300px;
+        
+    }
+    .header__button {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width:1260px){
+    .header__logo-img {
+        max-width: 141px;
+        margin-right: 225px; 
+    }
+}
+@media screen and (max-width:1190px){
+    .header__logo-img {
+        max-width: 141px;
+        margin-right: 150px;
+    }
+    .header__button {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width:1090px){
+    .header__logo-img {
+        max-width: 141px;
+        margin-right: 180px;
+        margin-left: 20px;
+    }
+    .header-content-text {
+        padding: 15px 10px;
+    }
+
+}
+@media screen and (max-width:1000px){
+    .header__logo-img {
+        margin-right: 100px;
+    }
+
+}
+@media screen and (max-width:950px){
+    .header__logo-img {
+        max-width: 141px;
+        margin-right: 70px;
+    }
+}
+@media screen and (max-width:889px){
+    .menu-block{
+        display: inline-block;
+    }
+    .menu-block-btn{
+        border: none;
+        display: inline-block;
+        background-image: url(../img/menu.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 18px;
+        visibility: visible;
+        cursor: pointer;
+        height: 32px;
+        width: 32px;
+        position: absolute;
+        display: block !important;
+        opacity: 1;
+        top: 32px;
+        right: 20px;
+        padding: 10px !important;
+        border-radius: 6px;
+        transition: all ease 0.35s !important;
+        background-color: #552768;
+        -webkit-filter: drop-shadow(0px 2px 6px rgba(31, 37, 89, 0.16));
+        filter: drop-shadow(0px 2px 6px rgba(31, 37, 89, 0.16));
+    }
+    .menu-block-btn:hover{
+        transform: scale(1.03);
+    }
+
+
+    .header-content-text{
+        display: none;
+    }
+    .header__button {
+        display: none;
+    }
+    .header-content-find {
+        margin-right: 70px;
+
+    }
+    .header__logo-img {
+        margin-right: auto;
+        margin-left: 10px;
+    }
+}

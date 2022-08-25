@@ -1,0 +1,169 @@
+.section-services__block{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(250, 250, 252, 1) !important;
+}
+.section-services__block-content{
+    max-width: 1311px;
+    margin: 0 auto;
+    padding: 40px 20px;
+
+}
+.section-services__block-content-titles{
+    display: inline-block;
+    width: 589px;
+}
+.section-services__block-content-title-mini{
+    margin-bottom: 10px;
+    color: #552768;
+    font-size: 18px;
+    font-weight: 400;
+    /* margin: 0 0 1.4rem; */
+}
+.section-services__block-content-title{
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    color: #1f2559;
+    text-transform: none;
+    margin: 0 0 1.4rem;
+}
+.section-services__block-content-text{
+    display: inline-block;
+    width: 564px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: #62668a;
+    line-height: 27px;
+    text-transform: none;
+    letter-spacing: -.1px;
+    margin: 0 0 1.4rem;
+    margin-left: 31px;
+    font-size: 18px;
+}
+.card__block{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+.card__block-content{
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    max-width: 100%;
+    width: 399px;
+    padding: 28px;
+    background-color: #fff;
+    border: 1px solid #f4f4f9;
+    border-radius: 24px;
+    transition: .2s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    filter: drop-shadow(0 3px 10px rgba(31,37,89,.04));
+    transition: .2s ease-in-out;
+}
+.card__block-content:hover{
+    transform: scale(1.03);
+}
+.card__block-content-img{
+    width: 80px;
+    aspect-ratio: auto 80 / 80;
+    height: 80px;
+    border-radius: 20px;
+}
+.card__block-content-title{
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    color: #1f2559;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 24px;
+    line-height: 34px;
+}
+.card__block-content-text{
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    color: #62668a;
+    line-height: 27px;
+    text-transform: none;
+    letter-spacing: -.1px;
+}
+.section-services__block-content-btn{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.section-services__content-btn{
+    background-color: #d25658;
+    border: 0 solid #d25658;
+    border-radius: 5px;
+    color: #fff;
+    padding: 20px 28px;
+    -webkit-filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+    filter: drop-shadow(0 2px 6px rgba(31,37,89,.16));
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+.section-services__content-btn:hover{
+    transition: .2s ease-in-out;
+    transform: scale(1.03);
+    background-color: #d42035;
+    color: #fff;
+    border: 0 solid #d42035;
+}
+@media screen and (max-width: 1245px){
+    .section-services__block-content-titles{
+        display: block;
+        width: 100%;
+        }
+        .section-services__block-content-title-mini{
+            width: 100%;
+            margin: 10px auto;
+            text-align: left;
+        }
+        .section-services__block-content-title{
+            width: 100%;
+            margin: 10px auto;
+            text-align: left;
+        }
+        .section-services__block-content-text{
+            width: 100%;
+            margin: 10px auto;
+            text-align: left;
+        }
+}
+@media screen and (max-width: 855px){
+    .card__block-content{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 340px){
+    .section-services__block-content{
+        padding: 30px 10px;
+    }
+    .card__block-content{
+        width: 100%;
+        padding: 20px;
+        width: 310px;
+        filter: drop-shadow(0 3px 6px rgba(31,37,89,.04));
+    }
+}

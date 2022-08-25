@@ -1,0 +1,94 @@
+.section-different__block {
+  width: 100%;
+  background-image: url("hubspot-solutions-partner-canada.0dbb6523.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.section-different__blocks {
+  box-sizing: border-box;
+  max-width: 1311px;
+  grid-template-columns: repeat(2, auto);
+  margin: 0 auto;
+  padding: 100px 20px;
+  display: grid;
+}
+
+.section-different__block-content-zero {
+  max-width: 500px;
+}
+
+.section-different__block-content {
+  max-width: 589px;
+  color: #fff;
+}
+
+.section-different__block-content-title-mini {
+  color: #fff;
+  text-transform: none;
+  letter-spacing: -.1px;
+  max-width: 573px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-decoration: none;
+}
+
+.section-different__block-content-title {
+  letter-spacing: -1px;
+  color: #fff;
+  max-width: 573px;
+  margin: 0 0 1.4rem;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.section-different__block-content-text {
+  max-width: 573px;
+  text-transform: none;
+  letter-spacing: -.1px;
+  color: #fff;
+  margin: 0 0 1.4rem;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  text-decoration: none;
+}
+
+.section-different__block-content-img {
+  max-width: 275px;
+}
+
+@media screen and (max-width: 1098px) {
+  .section-different__block-content-zero {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .section-different__block-content-zero {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .section-different__block-content-zero {
+    display: none;
+  }
+
+  .section-different__block {
+    background: #d25658 !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .section-different__block-content {
+    padding: 80px 10px;
+  }
+}
+
+/*# sourceMappingURL=index.d7eaa9a2.css.map */
