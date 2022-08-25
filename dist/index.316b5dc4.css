@@ -46,6 +46,10 @@
   transition: transform .3s;
 }
 
+.carousel__item:hover {
+  transform: scale(1.02) !important;
+}
+
 .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel__next > label:nth-child(1), .carousel > input[type="radio"]:nth-child(3):checked ~ .carousel__prev > label:nth-child(2), .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__next > label:nth-child(3), .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__prev > label:nth-child(1), .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__next > label:nth-child(2), .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__prev > label:nth-child(3) {
   z-index: 3;
   opacity: 1 !important;
