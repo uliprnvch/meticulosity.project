@@ -100,14 +100,13 @@
 }
 
 .section-form__block-content-form-textarea {
-  width: 90%;
   height: 133px;
   color: #1f2559;
   background-color: #fff;
   border: 1px solid #e7e8f1;
   border-radius: 10px;
   margin-bottom: 32px;
-  padding: .7rem 1.2rem;
+  padding: 10px 15px;
   font-family: inherit;
   font-size: 100%;
   font-weight: 500;
