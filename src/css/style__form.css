@@ -80,7 +80,8 @@
     color: #1f2559;
     font-weight: 500;
     text-align: left;
-    width: auto;
+    /* width: auto; */
+    max-width: 589px;
     border: 1px solid #e7e8f1;
     border-radius: 10px;
     height: 62px;

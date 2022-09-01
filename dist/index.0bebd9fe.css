@@ -84,7 +84,7 @@
 .section-form__block-content-form-input {
   color: #1f2559;
   text-align: left;
-  width: auto;
+  max-width: 589px;
   height: 62px;
   background-color: #fff;
   border: 1px solid #e7e8f1;
