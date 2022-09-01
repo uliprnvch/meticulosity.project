@@ -71,6 +71,7 @@
     margin: 0 auto 36px auto;
     max-width: 1311px;
     padding: 16px 0;
+    justify-content: center;
 }
 .section-resource__block-content-card {
     display: inline-block;
@@ -126,7 +127,7 @@
 .section-resource__block-content-card-text-end {
     border-top: 1px solid #E7E8F1;
     padding: 24px 24px 16px 24px;
-    width: 100%;
+    /* width: 100%; */
 }
 .section-resource__card-text-end-img {
 display: inline-block;
