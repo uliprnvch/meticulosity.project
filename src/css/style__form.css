@@ -1,4 +1,7 @@
-.section-form__block {
+.section-form__block{
+    display: none;
+}
+/* .section-form__block {
     width: 100%;
     background-image: url(../img/hubspot-quote.webp) !important;
     background-size: cover !important;
@@ -19,7 +22,6 @@
     flex-direction: column;
     justify-content: center;
     padding-bottom: 240px;
-    padding-left: 20px;
 }
 .section-form__block-content-text-title-mini {
     font-weight: 400;
@@ -64,7 +66,7 @@
     margin-left: 20px;
     margin-right: 0px;
     background-color: #FFFFFF;
-    width: 80%;
+    width: 100%;
     border: 1px solid #E7E8F1;
     border-radius: 36px;
     max-width: 589px;
@@ -81,8 +83,7 @@
     color: #1f2559;
     font-weight: 500;
     text-align: left;
-    /* width: auto; */
-    max-width: 589px;
+    width: auto;
     border: 1px solid #e7e8f1;
     border-radius: 10px;
     height: 62px;
@@ -97,8 +98,7 @@
 }
 
 .section-form__block-content-form-textarea {
-    width: 89%;
-    max-width: 466px;
+    width: 100%;
     height: 133px;
     border: 1px solid #e7e8f1;
     color: #1f2559;
@@ -162,4 +162,4 @@
     .section-form__block-content-form {
         margin: 0px;
     }
-}
+} */
