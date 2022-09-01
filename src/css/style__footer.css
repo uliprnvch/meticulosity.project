@@ -50,8 +50,8 @@
     box-shadow: 0 2px 8px rgb(244 38 62 / 4%), 0 1px 3px rgb(31 37 89 / 7%);
     background-color: #FFF;
     display: inline-block;
-    padding: 0.7rem 1.2rem;
-    width: 100%;
+    padding: 11px 15px;
+    /* width: 100%; */
     transition: .15s linear;
 }
 .footer__block-content-left-column-form-btn {

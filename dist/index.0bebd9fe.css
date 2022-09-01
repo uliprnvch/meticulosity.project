@@ -18,10 +18,10 @@
 }
 
 .section-form__block-content-text {
+  flex-direction: column;
+  justify-content: center;
   padding-bottom: 240px;
-  flex-direction: column !important;
-  justify-content: center !important;
-  display: flex !important;
+  display: flex;
 }
 
 .section-form__block-content-text-title-mini {
@@ -106,7 +106,7 @@
   border: 1px solid #e7e8f1;
   border-radius: 10px;
   margin-bottom: 32px;
-  padding: .7rem 1.2rem;
+  padding: 11px 15px;
   font-family: inherit;
   font-size: 100%;
   font-weight: 500;
@@ -114,7 +114,6 @@
   transition: all .15s linear;
   display: inline-block;
   box-shadow: 0 2px 8px #f4263e0a, 0 1px 3px #1f255912;
-  width: 100% !important;
 }
 
 .section-form__block-content-form-btn {
