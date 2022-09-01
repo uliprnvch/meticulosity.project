@@ -1,4 +1,7 @@
-.section-resource__block {
+.section-resource__block{
+    display: none;
+}
+/* .section-resource__block {
     width: 100%;
 }
 .section-resource__block-content {
@@ -202,4 +205,4 @@ height: 60px;
         margin-bottom: 1px;
         margin-left: 1px;
     }
-}
+} */
