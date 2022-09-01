@@ -50,7 +50,7 @@ animation-default {
     z-index: 3;
   }
   
-  @mixin carousel($items, $animation: 'default') {
+  /* @mixin carousel($items, $animation: 'default') {
     .carousel {
       width: 100%;
       position: relative;
@@ -68,9 +68,9 @@ animation-default {
           ~ .carousel__next > label {
             opacity: 0;
           }
-        }
+        } */
   
-        @for $i from 1 through $items {
+        /* @for $i from 1 through $items {
           &:nth-child(#{$i}) {
             &:checked {
               ~ .carousel__items .carousel__item {
@@ -132,8 +132,8 @@ animation-default {
           }
         }
       }
-  
-      &__items {
+   */
+      /* &__items {
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -264,13 +264,13 @@ animation-default {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-  }
+  } */
 
-  @include carousel(3);
+  /* @include carousel(3);
 
 .section-testimonials__block-content-slide:hover {
     transform: scale(1.02);
-}
+} */
 .section-testimonials__slide-columns {
     display: flex;
     align-items: center;

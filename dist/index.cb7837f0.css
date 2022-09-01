@@ -91,7 +91,7 @@
 
 .section-resource__block-content-card:hover {
   cursor: pointer;
-  transform: scale(1.03);
+  transform: scale(1.03) !important;
 }
 
 .section-resource__block-content-card-img {

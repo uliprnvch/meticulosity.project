@@ -50,8 +50,9 @@
   transform: scale(1.02) !important;
 }
 
-.section-testimonials__block-content-slide:hover {
-  transform: scale(1.02);
+animation-default {
+  z-index: 3;
+  opacity: 1 !important;
 }
 
 .section-testimonials__slide-columns {

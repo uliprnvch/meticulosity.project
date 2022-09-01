@@ -1,6 +1,6 @@
 .footer__block {
   width: 100%;
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 .footer__block-content {
@@ -51,11 +51,11 @@
 .footer__block-content-left-column-form-input {
   color: #1f2559;
   height: 62px;
-  width: 95%;
+  width: 100%;
   background-color: #fff;
   border: 1px solid #e7e8f1;
   border-radius: 10px;
-  padding: 5px 10px;
+  padding: .7rem 1.2rem;
   transition: all .15s linear;
   display: inline-block;
   box-shadow: 0 2px 8px #f4263e0a, 0 1px 3px #1f255912;
@@ -192,7 +192,7 @@
   }
 
   .footer__block-content-left-column-form-btn {
-    width: 95%;
+    width: 100%;
     margin-bottom: 30px;
   }
 
