@@ -19,6 +19,7 @@
     flex-direction: column;
     justify-content: center;
     padding-bottom: 240px;
+    padding-left: 20px;
 }
 .section-form__block-content-text-title-mini {
     font-weight: 400;
@@ -63,7 +64,7 @@
     margin-left: 20px;
     margin-right: 0px;
     background-color: #FFFFFF;
-    /* width: 100%; */
+    width: 80%;
     border: 1px solid #E7E8F1;
     border-radius: 36px;
     max-width: 589px;
@@ -96,7 +97,8 @@
 }
 
 .section-form__block-content-form-textarea {
-    /* width: 100%; */
+    width: 89%;
+    max-width: 466px;
     height: 133px;
     border: 1px solid #e7e8f1;
     color: #1f2559;
